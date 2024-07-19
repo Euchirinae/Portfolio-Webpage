@@ -8,11 +8,13 @@
 }
 body {
 	background-color: #151320;
+	overflow: hidden;
 }
 .wrapper {
 	padding: 7px 8px;
 
 }
+
 
 nav {
 	display: flex;
@@ -149,7 +151,10 @@ section {
 .content {
 	-webkit-transform: translateZ(60px);
 	transform: translateZ(60px);
+	
 }
+
+/*
 .content h3 {
 
 	margin-top: 1em;
@@ -162,6 +167,7 @@ section {
 	letter-spacing: 0.02em;
 	padding: 0 3em;
 }
+	*/
 @media screen and (min-width: 992px) {
 	section {
 		padding: 0 1em;
