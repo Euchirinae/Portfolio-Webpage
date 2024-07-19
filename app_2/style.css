@@ -20,6 +20,7 @@ html{
   position: relative;
 	text-align: center;
 	font-weight: 100;
+  margin: 17px;
   transform: perspective(200px) rotateX(10deg); 
     text-shadow: 
         0 -1px 0 #fff, 
@@ -62,5 +63,18 @@ html{
 .icon__linkedin:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+p {
+  font-size: 21px;  
+  color: #ffffff;
+	text-decoration: none;
+	font-weight: 245;
+}
+
+.studentClass {
+  font-size: 12px;  
+  font-family: Times;
 
 }
