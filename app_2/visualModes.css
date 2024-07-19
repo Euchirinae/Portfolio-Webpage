@@ -14,6 +14,10 @@ body {
 
 }
 
+nav {
+	display: flex;
+}
+
 section {
 	display: -webkit-box;
 	display: -ms-flexbox;
