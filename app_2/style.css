@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signNome {
+  font-size: 27px;
+  font-family: Times;
+  color: #ffffff;
+  position: relative;
+	text-align: center;
+	font-weight: 100;
+  transform: perspective(200px) rotateX(10deg); 
+    text-shadow: 
+        0 -1px 0 #fff, 
+        0 1px 0 #004d40,
+        0 16px 11px rgba(0, 0, 0, 0.9);
+    
+    transition: text-shadow 1s ease .2s, color .6s ease, transform 1s ease .2s, letter-spacing 1s ease .2s;
+}
+
+.frontFontProjects {
+  font-size: 16px;  
+  top: 4em;
+  justify-content: center;
+  position: relative;
+  color: #ffffff;
+	text-decoration: none;
+	font-weight: 245;
+}
+
+.fotoEdit {
+  border-radius: 2em;
+  margin-top: 17px;
+  margin-inline: 47px;
+  width: 117px;
+  height: 140px;
+}
+
+.midia_icons_Kayk {
+  justify-content: center;
+  width: 90%;
+  height: 78px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  display: flex;
+  gap: 45px;
+}
+.icon__git:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.icon__linkedin:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
