@@ -7,15 +7,5 @@ width: 100%;
 
 background: #000000; 
 background-size:cover;
-
-    &:hover {
-      transition: text-shadow 1s ease, color 3s ease-in 1s, transform .8s ease, letter-spacing .8s ease;
-      color: #0A0A0A;
-      text-shadow: 
-        -1px -1px 1px #000, 
-        2px 2px 1px #292929;
-      transform: translate(0px, 16px) perspective(200px) rotateX(10deg);
-      letter-spacing: .015em;
-    }
 } 
      
